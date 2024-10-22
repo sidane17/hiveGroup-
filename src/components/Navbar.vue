@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg sticky-top   ">
         <div class="container d-flex justify-content-between">
             <div class="col-1">
             <img src="../assets/HIVE-Group_Logo.png" alt="" width="100%">
@@ -13,9 +13,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <div class="d-flex justify-content-end flex-grow-1">
-                    <a href="#" class="nav-link me-3">SERVIZI</a>
-                    <a href="#" class="nav-link me-3">PARTNER</a>
-                    <a href="#" class="nav-link me-3">CONTATTACI</a>
+                    <a href="#" class="nav-link me-3"><strong>SERVIZI</strong></a>
+                    <a href="#" class="nav-link me-3"><strong>PARTNER</strong></a>
+                    <a href="#" class="nav-link me-3"><strong>CONTATTACI</strong></a>
+                    <a href="#" class="nav-link me-3"><strong>CHI SIAMO </strong></a>
                 </div>
             </div>
         </div>
@@ -24,8 +25,19 @@
 
 
 <style scoped>
+a{
+    color: rgb(210, 117, 30);
+}
 a:hover{
-    color: chocolate;
+    color: rgb(210, 168, 30);
     
+}
+nav{
+    position: sticky;
+    z-index: -99;
+    
+}
+nav{
+    height: 10vh;
 }
 </style>
